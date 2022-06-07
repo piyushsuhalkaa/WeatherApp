@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp | Piyush</title>
+    <script src="./assets/scripts/scripts.js"></script>
+</head>
+<body>
+    <form action="" id="getCityName">
+        <input type="search" 
+        id="city" 
+        autocomplete="off" 
+        spellcheck="false"
+        placeholder="Enter City Name"
+        required>
+        <br>
+        <button type="submit">Search</button>
+        <button>Current Location</button>
+    </form>
+    <main id="showWeather">
+        <Section>
+            <p id="cityName">---</p>
+        </Section>
+        <Section>
+            <img id="tempIcon" src="./assets/media/icons/clear-sky.png" width="100px"/>
+            <p id="tempData">
+                <span id="tempValue">----</span>
+                <span id="tempUnit">&#176C</span>
+            </p>
+        </Section>
+        <Section>
+            <p id="tempName">---</p>
+        </Section>
+    </main>
+</body>
+</html>
